@@ -112,8 +112,8 @@
 
 
 	<CMD cmd="userVariable.menuValue = 'false'" />
-	<UILAYOUT portrait="720,auto" landscape="720,auto">
-		<WINDOW layout="0,0,720,auto" align="relative">
+	<UILAYOUT portrait="720,1230" landscape="720,1230">
+		<WINDOW layout="0,0,720,1230" align="relative">
 			<WINDOW layout="0,0,720,92" defaultImg="#ffffff" align="relative">
 				<BUTTON layout="0,0,95,92" defaultImg="#00ffffff" onClick="function.menuCheck">
 					<IMAGE layout="0,33,26,35" defaultImg="res/ic_drawer.png" />
@@ -122,7 +122,7 @@
 				<LABEL layout="95,0,530,92" text="둘러보기" fontSize="35" minFontSize="-1" textAlign="vCenter" textColor="#000000" />
 			</WINDOW>
 			<LABEL layout="0,92,720,2" defaultImg="#82898d" />
-			<WINDOW id="mainWindow" layout="0,94,720,auto" align="linear:vertical" defaultImg="res/airnavbg.jpg" scroll="vertical" scrollBarVisible="false">
+			<WINDOW id="mainWindow" layout="0,94,720,1136" align="linear:vertical" defaultImg="res/airnavbg.jpg" scroll="vertical" scrollBarVisible="false">
 				<WINDOW layout="720,600" align="relative">
 					<STYLEBUTTON id="mainImage" layout="0,0,540,600" shape="roundRect(0)" defaultImg="{xpath.evaluateEx(file.read('data/galleryfirstdata.xml'), '/DATA/ITEM[1]/@image')}" borderStyle="solid:2|#82898d" />
 					<LABEL id="mainLabel" layout="0,0,540,600" text="{xpath.evaluateEx(file.read('data/galleryfirstdata.xml'), '/DATA/ITEM[1]/@name')}" fontSize="60" minFontSize="-1" fontStyle="bold"
@@ -180,7 +180,7 @@
 				<LABEL layout="720,2" defaultImg="#82898d" />
 			</WINDOW>
 
-			<WINDOW id="menuWindow" layout="-540,93,540,auto" align="linear:vertical" defaultImg="res/airnavbg.jpg">
+			<WINDOW id="menuWindow" layout="-540,93,540,1136" align="linear:vertical" defaultImg="res/airnavbg.jpg">
 				<WINDOW layout="480,82" align="relative">
 					<LABEL layout="40,0,480,82" text="여행" fontSize="35" minFontSize="-1" textAlign="bottom" textColor="#565a5c" />
 				</WINDOW>
