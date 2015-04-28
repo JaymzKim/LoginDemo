@@ -6,9 +6,8 @@
 <MOML>
 	<APPLICATIONINFO>
 		<UPDATEINFO realTimeType="qMark" />
-		<START url="airbnb.xml" />
+		<START url="login.xml" />
 		<ORIENTATION type="portrait" effect="none" />
-		<DEBUG suppressError="all"/>
 	</APPLICATIONINFO>
 </MOML>
  
